@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.btn {
+  padding: 12px 30px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.design1 {
+  border-radius: 0;
+}
+
+.design2 {
+  border-radius: 10px;
+}
+
+.design3 {
+  border-radius: 20px;
+}
+
+.design4 {
+  border-radius: 10px;
+}
+
+/* ============== Button 1 ============== */
+.btn--simple {
+  background: white;
+  color: #0e6efd;
+  border: 1px solid #0e6efd;
+  /* box-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.6); */
+}
+
+.btn--simple:hover {
+  background: #0e6efd;
+  color: white;
+}
+
+/* ============== Button Primary ============== */
+.btn--primary {
+  background: #0e6efd;
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background: #0c5ed7;
+}
+
+/* ============== Button Secondary ============== */
+.btn--secondary {
+  background: #6c757d;
+  color: #fff;
+}
+
+.btn--secondary:hover {
+  background: #5d646b;
+}
+
+/* ============== Button Success ============== */
+.btn--success {
+  background: #198754;
+  color: #fff;
+}
+
+.btn--success:hover {
+  background: #146b42;
+}
+
+/* ============== Button Danger ============== */
+.btn--danger {
+  background: #dc3545;
+  color: #fff;
+}
+
+.btn--danger:hover {
+  background: #b22b38;
+}
+
+/* ============== Button Warning ============== */
+.btn--warning {
+  background: #ffc107;
+  color: #000;
+}
+
+.btn--warning:hover {
+  background: #d09d05;
+}
+
+/* ============== Button Info ============== */
+.btn--info {
+  background: #0dcaf0;
+  color: #000;
+}
+
+.btn--info:hover {
+  background: #09a3c2;
+}
+
+/* ============== Button Light ============== */
+.btn--light {
+  background: #f8f9fa;
+  color: #000;
+}
+
+.btn--light:hover {
+  background: #c5c7c9;
+}
+
+/* ============== Button Dark ============== */
+.btn--dark {
+  background: #212529;
+  color: #fff;
+}
+
+.btn--dark:hover {
+  background: #3a4148;
+}
+
+/* ============== Button 1 ============== */
+.btn--simple--outline {
+  background: white;
+  color: #0e6efd;
+  border: 1px solid #0e6efd;
+  /* box-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.6); */
+}
+
+.btn--simple--outline:hover {
+  background: #0e6efd;
+  color: white;
+}
+
+/* ============== Button Primary ============== */
+.btn--primary--outline {
+  background: white;
+  color: #0e6efd;
+  border: 1px solid #0e6efd;
+}
+
+.btn--primary--outline:hover {
+  background: #0c5ed7;
+  color: #fff;
+}
+
+/* ============== Button Secondary ============== */
+.btn--secondary--outline {
+  background: #fff;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+.btn--secondary--outline:hover {
+  background: #5d646b;
+  color: #fff;
+}
+
+/* ============== Button Success ============== */
+.btn--success--outline {
+  background: #fff;
+  color: #198754;
+  border: 1px solid #198754;
+}
+
+.btn--success--outline:hover {
+  background: #146b42;
+  color: #fff;
+}
+
+/* ============== Button Danger ============== */
+.btn--danger--outline {
+  background: #fff;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.btn--danger--outline:hover {
+  background: #b22b38;
+  color: #fff;
+}
+
+/* ============== Button Warning ============== */
+.btn--warning--outline {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ffc107;
+}
+
+.btn--warning--outline:hover {
+  background: #d09d05;
+  color: #000;
+}
+
+/* ============== Button Info ============== */
+.btn--info--outline {
+  background: #fff;
+  color: #000;
+  border: 1px solid #0dcaf0;
+}
+
+.btn--info--outline:hover {
+  background: #09a3c2;
+  color: #000;
+}
+
+/* ============== Button Light ============== */
+.btn--light--outline {
+  background: #fff;
+  color: #000;
+  border: 1px solid #f8f9fa;
+}
+
+.btn--light--outline:hover {
+  background: #c5c7c9;
+  color: #000;
+}
+
+/* ============== Button Dark ============== */
+.btn--dark--outline {
+  background: #fff;
+  color: #212529;
+  border: 1px solid #212529;
+}
+
+.btn--dark--outline:hover {
+  background: #3a4148;
+  color: #fff;
+}
