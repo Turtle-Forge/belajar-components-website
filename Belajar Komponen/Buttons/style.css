@@ -234,3 +234,17 @@ body {
   background: #3a4148;
   color: #fff;
 }
+
+/* ============== Button Group ============== */
+.button--group {
+  padding: 8px 16px;
+  width: fit-content;
+  border-radius: 10px;
+  background: #212529;
+  display: flex;
+}
+
+.btn--group {
+  background: #212529;
+  color: #fff;
+}
