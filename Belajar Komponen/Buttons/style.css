@@ -237,14 +237,26 @@ body {
 
 /* ============== Button Group ============== */
 .button--group {
-  padding: 8px 16px;
   width: fit-content;
-  border-radius: 10px;
+  padding: 8px;
   background: #212529;
+  border-radius: 30px;
   display: flex;
 }
 
 .btn--group {
-  background: #212529;
+  padding: 4px 10px;
   color: #fff;
+}
+
+.count {
+  padding-left: 10px;
+}
+
+.batas {
+  border-left: 1px solid white;
+}
+
+.btn--group:hover {
+  cursor: pointer;
 }
